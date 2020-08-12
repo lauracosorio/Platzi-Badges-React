@@ -6,9 +6,9 @@ class BadgeForm extends React.Component {
   };
 
   // handleChange = (e) => {
-  //   // console.log({
-  //   //     name: e.target.name,
-  //   //     value: e.target.value})
+  //   console.log({
+  //       name: e.target.name,
+  //       value: e.target.value})
 
   //   this.setState({
   //     [e.target.name]: e.target.value,
@@ -16,7 +16,7 @@ class BadgeForm extends React.Component {
   // };
 
   handleClick = (e) => {
-    e.preventDefault()
+  //  e.preventDefault()
     console.log("Button was clicked");
   };
 
@@ -24,6 +24,7 @@ class BadgeForm extends React.Component {
   //   e.preventDefault();
   //   console.log("Form was submitted");
   //   console.log(this.state)
+  //   this.props.history.push('/badges')
   // };
 
   render() {
